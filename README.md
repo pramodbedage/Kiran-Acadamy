@@ -98,19 +98,6 @@ Creating structured and validated user feedback and registration forms:
 - **External Links**: Linking to external resources with `<a href="https://..." target="_blank">` to open links in a new tab.
 - **Top Navigation**: "Back to Top" navigation anchors (`<a href="#top">Back to Top ↑</a>`).
 
----
-
-## 📂 HTML Module Files & Projects
-
-| File / Folder | Topic / Project | Key Concepts Implemented |
-| :--- | :--- | :--- |
-| [`Acadamy.html`](file:///c:/Users/ADMIN/Downloads/KiranAcamdamy/Html_module/Acadamy.html) | **Kiran Academy Course Portal** | Heading marquees, introductory copy, multi-level nested lists (`<ul>` & `<ol>`) for basic, advanced, and expert courses. |
-| [`dashbord.html`](file:///c:/Users/ADMIN/Downloads/KiranAcamdamy/Html_module/dashbord.html) | **States & Cities Directory** | Customized lists (`type="square"`, `start`, `value`), nested state-to-city mappings across multiple Indian states. |
-| [`Form.html`](file:///c:/Users/ADMIN/Downloads/KiranAcamdamy/Html_module/Form.html) | **Student Admission Form** | `<fieldset>`, `<legend>`, text, radio buttons for gender, date of birth, time, phone number, email, dropdown `<select>`, and reset/submit buttons. |
-| [`Home.html`](file:///c:/Users/ADMIN/Downloads/KiranAcamdamy/Html_module/Home.html) | **Advanced Tables Showcase** | Student marks table, attendance records, employee salary grid with `rowspan`, `colspan`, `<colgroup>`, and nested tables. |
-| [`Pratice.html`](file:///c:/Users/ADMIN/Downloads/KiranAcamdamy/Html_module/Pratice.html) | **Rohit Sharma Fan / Bio Page** | Marquee tags, text stylings (`<b>`, `<i>`, `<u>`, `<del>`, `<small>`), image embedding, centered layouts, and career achievements. |
-| [`tableTask.html`](file:///c:/Users/ADMIN/Downloads/KiranAcamdamy/Html_module/tableTask.html) | **Swapnapurti Academy Portal** | Course fee tables, branch contact tables, placed students list with salary packages, admission steps, and contact info. |
-| [`travel.html`](file:///c:/Users/ADMIN/Downloads/KiranAcamdamy/Html_module/travel.html) & [`Prem_Mandir/`](file:///c:/Users/ADMIN/Downloads/KiranAcamdamy/Html_module/Prem_Mandir/index.html) | **Prem Mandir Vrindavan Portal** | Complete travel guide featuring on-page navigation menu anchors, image galleries, embedded Google Maps iframe, YouTube video tour, and a Darshan inquiry form. |
 
 ---
 
@@ -135,3 +122,4 @@ You can preview any of the HTML pages in your browser:
    cd Kiran-Acadamy/Html_module
    ```
 3. Open any `.html` file directly by double-clicking it, or from VS Code using **Live Server**.
+

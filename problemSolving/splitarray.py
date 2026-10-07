@@ -42,4 +42,9 @@ print(sol.isPossibleToSplit(nums))
 #output is True
 
 
-        
+
+# Thsi problem is an simple and it ths esay waay to solve the problem
+
+#loop reduce the time complayciaty and increase the space complexity
+
+#time complacity is an O(n)  and space complacity is an O(1)

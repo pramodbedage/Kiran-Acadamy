@@ -123,3 +123,12 @@ You can preview any of the HTML pages in your browser:
    ```
 3. Open any `.html` file directly by double-clicking it, or from VS Code using **Live Server**.
 
+
+1/OCT/2026
+
+form Secation 
+1. how to use the from button and the how to send value to the url and how to fech the values 
+2.How to add the images and the video and audio files
+3.how to add the links
+4.What is user of the value ="in form uril the data is gon whit the url"
+5. what is the use of the form action=" "

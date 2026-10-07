@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body style="background-color: #eef2f7; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 40px 15px; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh; 
+            box-sizing: border-box;">
+
+    <!-- Main Container Card -->
+    <div style="background-color: #ffffff;
+                width: 450px;
+                max-width: 550px;
+                height: auto;
+                padding: 35px 30px;
+                border: 3px solid #dcdfe6;
+                border-radius: 12px;
+                box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+                box-sizing: border-box;
+                margin: auto;">
+
+        <!-- heading stractuer  -->
+
+
+        <div style="text-align: center;
+                    margin-bottom: 25px;">
+            <h2 style="color: #1e3a8a; 
+                    font-size: 26px;
+                    font-family: 'Times New Roman', Times, serif;
+                    margin: 0 0 8px 0; 
+                    text-align: center;
+                ">
+                Student Registration Form
+            </h2>
+
+
+            <p style="color: #64748b; 
+                    font-size: 14px; 
+                    font-family: 'Times New Roman', Times, serif;
+                    margin: 0; 
+                    text-align: center;
+            ">
+                Fille it properly</p>
+
+
+            <div style="height: 3px; 
+                    width: 60px; 
+                    background-color: #2563eb; 
+                    margin: 12px auto 0 auto; 
+                    border-radius: 2px;">
+            </div>
+        </div>
+
+        <!-- The form start here -->
+
+        <form>
+
+            <!-- 1. Full Name Section -->
+            <div style="margin-bottom: 18px;">
+                <label for="fullname" style="display: block; 
+                        font-size: 14px; 
+                        font-weight: 600; 
+                        color: #1e293b; 
+                        margin-bottom: 6px;
+                    ">Full
+                    Name *<input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required
+                        style="width: 100%; 
+                            height: 42px; 
+                            padding: 8px 12px; 
+                            font-size: 14px; 
+                            font-family: inherit; 
+                            color: #334155; 
+                            background-color: #f8fafc; 
+                            border: 1px solid #cbd5e1; 
+                            border-radius: 6px; 
+                            box-sizing: border-box; 
+                            outline: none; 
+                            margin-top: 10px;">
+                </label>
+
+            </div>
+
+            <!-- 2. Email Section -->
+            <div style="margin-bottom: 18px;">
+                <label for="email" style="display: block; 
+                        font-size: 14px; 
+                        font-weight: 600; 
+                        color: #1e293b; 
+                        margin-bottom: 6px;">Email
+                    Address *
+
+                    <input type="email" id="email" name="email" placeholder="student@example.com" required style="width: 100%; 
+                            height: 42px; 
+                            padding: 8px 12px; 
+                            font-size: 14px; 
+                            font-family: inherit; 
+                            color: #334155; 
+                            background-color: #f8fafc; 
+                            border: 1px solid #cbd5e1; 
+                            border-radius: 6px; 
+                            box-sizing: border-box; 
+                            outline: none;">
+                </label>
+
+            </div>
+
+            <!-- 3. password secation  -->
+            <div style="margin-bottom: 18px;">
+                <label for="password" style="display: block; 
+                    font-size: 14px; 
+                    font-weight: 600; 
+                    color: #1e293b; 
+                    margin-bottom: 6px;">Password
+                    *
+                    <input type="password" id="password" name="password" placeholder="Create a strong password" required
+                        style="width: 100%; 
+                                height: 42px; 
+                                padding: 8px 12px; 
+                                font-size: 14px; 
+                                font-family: inherit; 
+                                color: #334155; 
+                                background-color: #f8fafc; 
+                                border: 1px solid #cbd5e1; 
+                                border-radius: 6px; 
+                                box-sizing: border-box; 
+                                outline: none;">
+                </label>
+
+            </div>
+
+            <!-- 4. Mobile Number Section -->
+
+            <div style="margin-bottom: 18px;">
+                <label for="mobile" style="display: block; 
+                    font-size: 14px; 
+                    font-weight: 600; 
+                    color: #1e293b; 
+                    margin-bottom: 6px;">Mobile
+                    Number *
+                    <input type="tel" id="mobile" name="mobile" placeholder="e.g. 9876543210" pattern="[0-9]{10}"
+                        required style="width: 100%; 
+                    height: 42px; 
+                    padding: 8px 12px; 
+                    font-size: 14px; 
+                    font-family: inherit; 
+                    color: #334155; 
+                    background-color: #f8fafc; 
+                    border: 1px solid #cbd5e1; 
+                    border-radius: 6px; 
+                    box-sizing: border-box; 
+                    outline: none;">
+                </label>
+            </div>
+
+            <!-- 5. Date of Birth Section -->
+
+            <div style="margin-bottom: 18px;">
+
+                <label for="dob" style="display: block; 
+                    font-size: 14px; 
+                    font-weight: 600; 
+                    color: #1e293b; 
+                    margin-bottom: 6px;">Date
+                    of Birth *
+                    <input type="date" id="dob" name="dob" required style="width: 100%; 
+                    height: 42px; 
+                    padding: 8px 12px; 
+                    font-size: 14px; 
+                    font-family: inherit; 
+                    color: #334155; 
+                    background-color: #f8fafc; 
+                    border: 1px solid #cbd5e1; 
+                    border-radius: 6px; 
+                    box-sizing: border-box; 
+                    outline: none;">
+                </label>
+
+            </div>
+
+            <!-- 6. gender secation -->
+
+            <div style="margin-bottom: 18px;">
+                <label style="display: block;
+                            font-size: 14px; 
+                            font-weight: 600; 
+                            color: #1e293b; 
+                            margin-bottom: 8px;">
+                    Gender *
+                    <div style="display: flex; 
+                            gap: 20px; 
+                            align-items: center; 
+                            padding: 4px 0;">
+
+                        <div style="display: flex; 
+                                align-items: center;">
+                            <input type="radio" id="male" name="gender" value="Male" required style="margin-right: 6px; 
+                                    cursor: pointer; 
+                                    width: 16px; 
+                                    height: 16px;">
+
+
+                            <label for="male" style="font-size: 14px; color: #334155; cursor: pointer;">Male</label>
+                        </div>
+
+
+
+
+                        <div style="display: flex; 
+                                align-items: center;">
+                            <input type="radio" id="female" name="gender" value="Female"
+                                style="margin-right: 6px; cursor: pointer; width: 16px; height: 16px;">
+                            <label for="female" style="font-size: 14px; color: #334155; cursor: pointer;">Female</label>
+                        </div>
+
+
+
+                        <div style="display: flex; align-items: center;">
+                            <input type="radio" id="other" name="gender" value="Other"
+                                style="margin-right: 6px; cursor: pointer; width: 16px; height: 16px;">
+                            <label for="other" style="font-size: 14px; color: #334155; cursor: pointer;">Other</label>
+                        </div>
+
+
+
+                    </div>
+            </div>
+
+
+            <!-- 7. selecation secation  -->
+
+            <div style="margin-bottom: 18px;">
+                <label for="course" style="display: block;  
+                        font-size: 14px; 
+                        font-weight: 600; 
+                        color: #1e293b; 
+                        margin-bottom: 6px;">
+                    Course*
+                    <select id="course" name="course" required style="width: 100%;
+                                height: 42px; 
+                                padding: 8px 12px; 
+                                font-size: 14px; 
+                                font-family: inherit; 
+                                color: #334155; 
+                                background-color: #f8fafc; 
+                                border: 1px solid #cbd5e1; 
+                                border-radius: 6px; 
+                                box-sizing: border-box; 
+                                outline: none;">
+                        <option value="" disabled selected>-- Select a Course --</option>
+                        <option value="Data Analytics">Data Analytics</option>
+                        <option value="Data Science">Data Science</option>
+                        <option value="Java Full Stack">Java Full Stack</option>
+                        <option value="Python Full Stack">Python Full Stack</option>
+                    </select>
+                </label>
+            </div>
+
+
+            <!-- 8. address secation -->
+
+            <div style="margin-bottom: 18px;">
+                <label for="address" style="display: block; 
+                            font-size: 14px; 
+                            font-weight: 600; 
+                            color: #1e293b; 
+                            margin-bottom: 6px;">
+                    Address*
+                    <textarea id="address" name="address" rows="3" placeholder="Enter full residential address" required
+                        style="width: 100%; 
+                            height: 80px; 
+                            padding: 10px 12px; 
+                            font-size: 14px; 
+                            font-family: inherit; 
+                            color: #334155; 
+                            background-color: #f8fafc; 
+                            border: 1px solid #cbd5e1; 
+                            border-radius: 6px; 
+                            box-sizing: border-box; 
+                            resize: vertical; 
+                            outline: none;"></textarea>
+                </label>
+            </div>
+
+            <!-- 9. Terms & Conditions Section -->
+
+            <div style="margin-bottom: 24px;">
+
+
+                <div style="display: flex; 
+                            align-items: flex-start;">
+
+                    <input type="checkbox" id="terms" name="terms" required style="width: 16px; 
+                                height: 16px; 
+                                margin: 3px 8px 0 0; 
+                                cursor: pointer;">
+
+                    <label for="terms" style="font-size: 13px; 
+                                            color: #475569; 
+                                            cursor: pointer;">
+                        I agree to the
+                        <span style="color: #2563eb; 
+                                    font-weight: 600;">Terms & Conditions</span>
+                        and student regulations.
+                    </label>
+
+                </div>
+            </div>
+
+            <!-- 10 buttons secation  -->
+
+            <div style="display: flex; 
+                        justify-content: space-between; 
+                        gap: 15px; 
+                        margin-top: 20px;">
+
+                <!-- rg buttons  -->
+
+
+                <button type="submit" style="background-color: #2563eb; 
+                        color: #ffffff; 
+                        width: 48%; 
+                        height: 44px; 
+                        font-size: 15px; 
+                        font-family: inherit; 
+                        font-weight: 600; 
+                        text-align: center; 
+                        border: none; 
+                        border-radius: 6px; 
+                        box-shadow: 0 4px 10px rgba(37, 99, 235, 0.3); 
+                        cursor: pointer;">
+                    Register
+                </button>
+
+                <!-- reset button -->
+                <button type="reset" style="background-color: #f1f5f9; 
+                        color: #475569; 
+                        width: 48%; 
+                        height: 44px; 
+                        font-size: 15px; 
+                        font-family: inherit; 
+                        font-weight: 600; 
+                        text-align: center; 
+                        border: 1px solid #cbd5e1; 
+                        border-radius: 6px; 
+                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); 
+                        cursor: pointer;">
+                    Reset
+                </button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
